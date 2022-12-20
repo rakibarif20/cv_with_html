@@ -1,0 +1,138 @@
+@import "./default.scss";
+
+.resume {
+  width: 1110px;
+  margin: 0 auto;
+
+  &__header {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+    &__name {
+      h2 {
+        font-size: 36px;
+        font-weight: 700;
+      }
+
+      h3 {
+        font-size: 22px;
+        font-weight: 700;
+      }
+    }
+
+    &__linkArea {
+      ul {
+        li {
+          display: flex;
+          p {
+            width: 60px;
+          }
+          .dotSpanTag {
+            margin: 0 4px 4px 4px;
+          }
+        }
+      }
+    }
+  }
+  &__mainContent {
+    margin-top: 30px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+
+    &__projectArea {
+      margin-right: 20px;
+      width: 910px;
+
+      &__jobSection {
+        .company_name {
+          h5 {
+            font-size: 14px;
+            font-weight: 700;
+          }
+        }
+        .work_details {
+          span {
+            font-size: 12px;
+          }
+          .use_skills {
+            display: flex;
+            align-items: baseline;
+
+            h6 {
+              font-size: 13px;
+              font-weight: 700 !important;
+            }
+            p{
+              margin-left: 2px;
+            }
+          }
+        }
+      }
+    }
+    &__projectSection {
+      &__list {
+        .projectList__item {
+          &__field {
+            display: flex;
+            align-items: baseline;
+            h6 {
+              width: 80px;
+            }
+            .pName {
+              font-weight: 700 !important;
+            }
+            .title_name_list {
+              width: 80px;
+            }
+            span {
+              margin: 0px 6px 2px 2px;
+            }
+          }
+        }
+      }
+    }
+  }
+  &__education {
+    .skill__title__name {
+      ul {
+        li {
+          display: flex;
+          align-items: baseline;
+
+          h6 {
+            font-size: 13px;
+            font-weight: 700 !important;
+            width: 80px;
+          }
+
+          span {
+            margin: 0 4px 2px 2px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// common css
+
+.title {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.gap_one {
+  margin-top: 12px;
+}
+.gap_two {
+  margin-top: 8px;
+}
+.gap_three {
+  margin-top: 4px;
+}
+
+// .pName {
+//   font-weight: bold !important;
+// }

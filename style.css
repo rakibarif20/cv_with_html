@@ -1,0 +1,156 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: underline;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+p {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.resume {
+  width: 1110px;
+  margin: 0 auto;
+}
+.resume__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.resume__header__name h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.resume__header__name h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.resume__header__linkArea ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.resume__header__linkArea ul li p {
+  width: 60px;
+}
+.resume__header__linkArea ul li .dotSpanTag {
+  margin: 0 4px 4px 4px;
+}
+.resume__mainContent {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.resume__mainContent__projectArea {
+  margin-right: 20px;
+  width: 910px;
+}
+.resume__mainContent__projectArea__jobSection .company_name h5 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.resume__mainContent__projectArea__jobSection .work_details span {
+  font-size: 12px;
+}
+.resume__mainContent__projectArea__jobSection .work_details .use_skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.resume__mainContent__projectArea__jobSection .work_details .use_skills h6 {
+  font-size: 13px;
+  font-weight: 700 !important;
+}
+.resume__mainContent__projectArea__jobSection .work_details .use_skills p {
+  margin-left: 2px;
+}
+.resume__mainContent__projectSection__list .projectList__item__field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.resume__mainContent__projectSection__list .projectList__item__field h6 {
+  width: 80px;
+}
+.resume__mainContent__projectSection__list .projectList__item__field .pName {
+  font-weight: 700 !important;
+}
+.resume__mainContent__projectSection__list .projectList__item__field .title_name_list {
+  width: 80px;
+}
+.resume__mainContent__projectSection__list .projectList__item__field span {
+  margin: 0px 6px 2px 2px;
+}
+.resume__education .skill__title__name ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.resume__education .skill__title__name ul li h6 {
+  font-size: 13px;
+  font-weight: 700 !important;
+  width: 80px;
+}
+.resume__education .skill__title__name ul li span {
+  margin: 0 4px 2px 2px;
+}
+
+.title {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.gap_one {
+  margin-top: 12px;
+}
+
+.gap_two {
+  margin-top: 8px;
+}
+
+.gap_three {
+  margin-top: 4px;
+}
